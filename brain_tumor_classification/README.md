@@ -21,7 +21,7 @@ code/
   |    |--Pretrained_ResNet.py: Pretrained ResNet without dropout layer for IDH.py, HGG_LGG.py and LGG_GBM.py
   |    |--ThreeDResNet.py: ResNet without dropout layer for IDH.py, HGG_LGG.py and LGG_GBM.py
   |--pretrain/: Pre-trained path storage module
-  |    |--resnet_18.pth: Pretrain ResNet18 parameters
+  |    |--resnet_18.pth: Pretrain ResNet18 parameters(大于100MB，无法同步到github上，如果需要请自行搜索MedicalNet的github，里面README中有下载地址)
   |--AG_GBM.py: train and val module for AG and GBM dataset
   |--HGG_LGG.py: train and val module for HGG and LGG dataset
   |--IDH.py: train and val module for IDH dataset
